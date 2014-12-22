@@ -19,6 +19,9 @@ Requires:       perl(Hash::FieldHash)
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 This module exports a single function: ttie. ttie ties a variable to a
 type constraint, ensuring that whatever values stored in the variable
 will conform to the type constraint. If the type constraint has
