@@ -1,6 +1,8 @@
+%define _buildid .1
+
 Name:           perl-Type-Tie
 Version:        0.009
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Tie a variable to a type constraint
 License:        GPL+ or Artistic
 Group:          Development/Libraries
