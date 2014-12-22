@@ -1,5 +1,5 @@
 Name:           perl-Type-Tie
-Version:        0.008
+Version:        0.009
 Release:        1%{?dist}
 Summary:        Tie a variable to a type constraint
 License:        GPL+ or Artistic
